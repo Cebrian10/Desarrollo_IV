@@ -1,17 +1,17 @@
-.titulo{
+.logo_titulo{
     text-decoration: none;
     color: #4f772d;
     font-size: 60px;    
     margin: 5px 5px 5px 10px;
 }
-.barradeb{
+.barra_de_busqueda{
     width: 600px;
     height: 40px;
     position: relative;    
     bottom: 8px;
     border-color: #000;
 }
-.but{
+.boton_buscar{
     width: 60px;
     height: 40px;
     position: relative;    
@@ -20,24 +20,40 @@
     background-color: #4f772d;
     color: #fff;
 }
-.carr{
-    width: 55px;
-    height: 42px;    
-}
-.imgas{
-    width: 45px;
-    height: 42px;    
-}
-.sesion{    
+.sesion_carr_imag{    
     position: relative;
     top: 8px;
     left: 360px;
+}
+.carrito_compra{
+    width: 55px;
+    height: 42px;    
+}
+.imagen_sesion{
+    width: 45px;
+    height: 42px;    
 }
 .logito{
     position: relative;
     left: 80px;
 }
-.nose{
+.menu_rastro_span{
+    position: relative;
+    top: 3px;
+}
+.menu_rastro{    
+    box-sizing: border-box;
+    width:50%;
+    position: relative;
+    font-size: 18px; 
+    bottom: 45px;
+    left: 220px;        
+}
+.sin_casita{
+    position: relative;
+    top: 3px;
+}
+.mayor_que{
     margin: 0;
     vertical-align: top;
     display: inline-block;
@@ -50,49 +66,70 @@
     height: 18px;
     background-repeat: no-repeat;
 }
-.rastro{    
-    box-sizing: border-box;
-    width:50%;
-    position: relative;
-    font-size: 18px; 
-    bottom: 45px;
-    left: 220px;        
+.menu_rastro_pag{
+    display: inline-block;
 }
-.rast{
-    position: relative;
-    top: 3px;
-}
-.ras{
+.flot_izq{
     float: left;
     clear: both;
     color: #000; 
     text-decoration: none; 
 }
-.rastr{
-    display: inline-block;
+.div3{
+    box-sizing: border-box;
+    width:45%;
+    position: relative;
+    left: 219px;
+    height: 950px;
 }
-.foot{
-    
+form input{
+    background-color: #E2DDDD;
+    border: #AFAAAA;
+    padding: 5px;
+}
+h2{
+    font-family: inherit;
+    position: relative;
+    background-color: #31572D;
+    color: #fff;
+    border: #000;
+    padding: 8px;
+    width: 1000px;
+}
+h3{
+    color: #4F722D;
+    font-size: 40px;
+}
+.page_footer{
+    color: #fff;         
+    background-color: #132a13;  
+    padding: 1rem 1rem;    
+}
+.page_foot_1{
+    display: inline-block;
+    height: 40px;
+}
+.page_foot_2{
+    display: inline-block;
+    height: 40px;
+}
+.page_foot_3{
+    display: inline-block;
+    height: 40px;
+}
+.page_foot_4{
+    display: inline-block;
+    height: 40px;  
+}
+.enlaces_foot{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.foot{    
     color: #fff;         
     background-color: #132a13;   
 }
-div div ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 19px;
-}
-ul li{    
-    list-style-type: none;
-    
-}
-
-.page-footer{
-    color: #fff;         
-    background-color: #132a13;  
-    padding: 1rem 1rem;
-    
-}
-
 h4{
     font-family: Arial, Helvetica, sans-serif;
     display: block;
@@ -102,30 +139,18 @@ h4{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+.iconos{
+    
+}
+div div ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+}
 div ul li a{
     font-family: initial
 }
-
-.mayu{
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
+ul li{    
+    list-style-type: none;    
 }
 
-.page-foot-1{
-    display: inline-block;
-    height: 40px;
-}
-.page-foot-2{
-    display: inline-block;
-    height: 40px;
-}
-.page-foot-3{
-    display: inline-block;
-    height: 40px;
-}
-.page-foot-4{
-    position: relative;
-    left: 50%;
-}
