@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+}
+
+.menu-nav{
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    justify-content: center;
+}
+
+.menu li{
+    margin: 5px;
+    background-color: yellow;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+menu-nav-a{
+    text-decoration: none;
+}
+
+.seccion-1{
+    padding: 10px;
+}
+
+.seccion-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.seccion-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.seccion-2 article{
+    margin: 10px;
+    background-color: violet;
+    padding: 10px;
+}
+
+.up{
+    position: absolute;
+}
+
+.friito{
+    background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Laboratorios/Laboratorio_6/frio.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+}
+.friito p{
+    font-size: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+footer{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-between;
+    background-color:brown;
+}
