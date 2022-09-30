@@ -64,19 +64,17 @@ menu-nav-a{
     position: absolute;
 }
 
-.friito{
+.section-3{
     background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Laboratorios/Laboratorio_6/frio.jpg");
     background-repeat: no-repeat;
-    display: flex;
-    width: 100%;
+    background-size: 100%;
 }
-.friito p{
+
+.section-3 p{
     font-size: 100px;
-    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 350px;
+    margin: 0%;
 }
 
 footer{
