@@ -10,6 +10,10 @@ nav{
     display: flex;
 }
 
+header{
+    background-color: rgb(211, 90, 90);
+}
+
 .menu-nav{
     justify-content: center;
 }
@@ -68,6 +72,7 @@ menu-nav-a{
     background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Laboratorios/Laboratorio_6/frio.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 550px;
 }
 
 .section-3 p{
@@ -75,6 +80,8 @@ menu-nav-a{
     display: flex;
     justify-content: center;
     margin: 0%;
+    position: relative;
+    top: 200px;
 }
 
 footer{
