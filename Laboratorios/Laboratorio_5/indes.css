@@ -4,29 +4,98 @@
 
 .todo{
     display: flex;
+    width: 100%;
     justify-content: center;
 }
 
 .izq{
+    /*box-shadow: -5px 10px 8px #888888;*/
+    padding: 10px;
+    width: 30%;
+}
+
+.imagen{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 50%;
+    border: #25A0B9 10px solid ;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; 
+    filter: drop-shadow(2px 4px 6px #000);
+}
+
+h4{
     position: relative;
-    left: 200px;
+    left: 250px;
+    margin: 0%;
 }
 
 .der{
+    /*box-shadow: 5px 10px 8px #888888;*/
+    padding: 10px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+h1{
+    font-family: -webkit-body;
+    font-size: 60px;
+    margin: 37px 0px 0px 0px;
     position: relative;
-    right: 200px;
+    bottom: -27px;
+    z-index: 1;
+    filter: drop-shadow(1px 3px 1px #25A0B9);
+}
+
+.hrr{
+    height: 10px;
+    background-color: #25A0B9;
+    position: relative;
+    right: 142px;
+    border: 0px;
+    width: 539px;
+}
+
+hr{
+    height: 3px;
+    background-color: #25A0B9;
+    border: 0px;
+}
+
+.princi{
+    justify-content: right;
+    margin: 0px;
+    display: flex;
+    padding: 1px;
 }
 
 .apt-idi{
     display: flex;
     justify-content: space-between;
 }
-/*.sec-2{
-    display: flex;
-    justify-content: space-between;
+
+.experiencia{
+    margin-top: 30px;
 }
 
-.sec-3{
-    display: flex;
-    justify-content: space-between;
-}*/
+.datos-academicos{
+    margin-top: 47px;
+}
+
+.pintar{
+    color: rgb(33, 151, 175);
+}
+
+.icono{
+    width: 35px;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 13% 87%;
+}
