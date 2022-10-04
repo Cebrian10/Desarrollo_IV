@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+}
+
+.izq{
+    position: relative;
+    left: 200px;
+}
+
+.der{
+    position: relative;
+    right: 200px;
+}
+
+.apt-idi{
+    display: flex;
+    justify-content: space-between;
+}
+/*.sec-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+}*/
