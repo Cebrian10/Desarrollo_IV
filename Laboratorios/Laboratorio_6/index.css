@@ -10,10 +10,6 @@ nav{
     display: flex;
 }
 
-header{
-    background-color: rgb(211, 90, 90);
-}
-
 .menu-nav{
     justify-content: center;
 }
@@ -68,20 +64,19 @@ menu-nav-a{
     position: absolute;
 }
 
-.section-3{
+.friito{
     background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Laboratorios/Laboratorio_6/frio.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 550px;
+    display: flex;
+    width: 100%;
 }
-
-.section-3 p{
+.friito p{
     font-size: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0%;
-    position: relative;
-    top: 200px;
+    align-items: center;
+    height: 350px;
 }
 
 footer{
