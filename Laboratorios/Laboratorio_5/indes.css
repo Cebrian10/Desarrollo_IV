@@ -1,0 +1,115 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.izq{
+    /*box-shadow: -5px 10px 8px #888888;*/
+    padding: 10px;
+    width: 30%;
+}
+
+.imagen{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 50%;
+    border: #25A0B9 10px solid ;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center; 
+    filter: drop-shadow(2px 4px 6px #000);
+}
+
+h4{
+    position: relative;
+    left: 250px;
+    margin: 0%;
+}
+
+.tabla{
+    display: flex;
+    align-items: center;
+}
+
+.icono{
+    width: 35px;
+}
+
+.derecha{
+    position: relative;
+    left: 10px;
+}
+
+.habilidades{
+    margin-top: 25.4px;
+}
+
+.pintar{
+    color: rgb(33, 151, 175);
+}
+
+.mas-informacion{
+    margin-top: 19px;
+}
+
+.der{
+    /*box-shadow: 5px 10px 8px #888888;*/
+    padding: 10px;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.nom{
+    font-family: -webkit-body;
+    font-size: 60px;
+    margin: 37px 0px 0px 0px;
+    position: relative;
+    bottom: -27px;
+    z-index: 1;
+    filter: drop-shadow(1px 3px 1px #25A0B9);
+}
+
+.hrr{
+    height: 10px;
+    background-color: #25A0B9;
+    position: relative;
+    right: 142px;
+    border: 0px;
+    width: 539px;
+}
+
+hr{
+    height: 3px;
+    background-color: #25A0B9;
+    border: 0px;
+}
+
+.princi{
+    justify-content: right;
+    margin: 0px;
+    display: flex;
+    padding: 1px;
+}
+
+.experiencia{
+    margin-top: 30px;
+}
+
+.datos-academicos{
+    margin-top: 47px;
+}
+
+.apt-idi{
+    display: flex;
+    justify-content: space-between;
+}
+
