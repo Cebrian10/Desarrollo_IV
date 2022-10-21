@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap&');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+header{
+    color: white;
+    background-color: black;
+    font-family: 'EB Garamond', serif;    
+}
+header h1{ 
+    padding:10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+  }
+header ul li{
+    padding-bottom: 10px;
+    margin: 0 auto;
+  }
+header ul li a  {
+    text-align:center;
+    display: block;
+    text-decoration: none;
+    font-family: var(--subtitulos);
+    color: var(--text);
+  }
+header ul .btn-registrarse a {
+    background-color: var(--text);
+    border-radius: 20px;
+    color: var(--BG1);
+    font-weight: 700;
+    padding: 15px;
+  }
+  .btn-registrarse {
+    width:200px;
+  }
+  
+header ul li a:hover{
+    color: var(--primary1)
+  }
+  header .logo{
+    float: left;
+    display: block;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  header .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  header .menu-icon{
+   margin-right:10px;
+   position: relative;
+   float: right;
+   cursor: pointer;
+   bottom: 30px;
+   right: 10px;
+  }
+  
+  header .menu-icon .nav-icon{
+    background: #333;
+    display: block;
+    height: 2px;
+    width: 18px;
+    position: relative;
+    transition: background .2s ease-out;
+  }
+  
+  header .menu-icon .nav-icon:before{
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: 5px;
+    }
+  
+  header .menu-icon .nav-icon:after{
+    background: #333;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -5px;
+    transition: all .2s ease-out;
+    }
+  
+  header .menu-btn {
+    display: none;
+  } 
+  
+  header .menu-btn:checked ~ .menu{
+    max-height: 270px;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .nav-icon{
+   background: transparent;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+   transform: rotate(-45deg);
+    top: 0;
+  }
+  
+  header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top: 0;
+  }
+.sombreritos{   
+    background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Parcial/Parcial 2/sombreros.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 480px;     
+}
+.img-fondo-titulo{
+    background-color: rgba(151, 137, 74, 0.308);  
+    height: 451px;           
+    text-align: 
+    center;
+    text-shadow: 1px 1px 5px #fff;
+}
+.img-fondo-titulo h2{
+    font-size: 70px; 
+    font-family: 'EB Garamond', serif;
+    position: relative;
+    top: 70px; 
+}   
+.img-fondo-titulo p{
+    font-size: 40px;
+    font-family: 'Zilla Slab', serif;  
+    position: relative;
+    top: 70px;        
+} 
+.bloque-grid-h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-align: center; 
+}
+.bloque-grid-p{
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;  
+    padding: 10px;
+    text-align: center;     
+}
+.bloque-grid-h3{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.bloque-grid{
+    background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Parcial/Parcial 2/fondo-blanco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 950px;
+}
+.grid-todos{
+    display: grid;    
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    ". . a1 a1 a1 a1 a1 . a2 a2 a2 a2 a2 . a3 a3 a3 a3 a3 . ."
+    ". . a4 a4 a4 a4 a4 . a5 a5 a5 a5 a5 . a6 a6 a6 a6 a6 . .";
+    gap: 3em;
+}
+.item{    
+    text-align: center;
+    background-color: #f7f7f7;
+    box-shadow: 1px 1px 3px #000;
+    padding: 50px 10px;
+}
+.iconito{
+    width: 75px;
+    padding-bottom: 10px;
+}
+.bloque-grid-p-p{
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;  
+    padding: 10px;
+}
+.grid-1{
+    grid-area: a1;
+}
+.grid-2{
+    grid-area: a2;    
+}
+.grid-3{
+    grid-area: a3;
+}
+.grid-4{
+    grid-area: a4;
+}
+.grid-5{
+    grid-area: a5;
+}
+.grid-6{
+    grid-area: a6;
+}
+.casi-final{    
+    background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Parcial/Parcial 2/casfifinal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 350px;
+}
+.casi-final-h2{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    text-align: center; 
+    position: relative;
+    top: 80px;
+}
+.casi-final-p{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;  
+    padding: 10px;
+    text-align: center; 
+}
+.ultima{
+    background-image: url("C:/Users/Ameth/Desktop/Desarrollo_IV/Desarrollo_IV/Parcial/Parcial 2/fondo-blanco.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+  
+  
